@@ -1,7 +1,7 @@
 
  // Global scope
 let burgers = ["Hamburger", "Cheeseburger"];
-const featuredDrink = "Strawberry Milkshake";
+let featuredDrink = "Strawberry Milkshake";
 
 // Function scope
 function addBurger() {
@@ -17,6 +17,5 @@ function addBurger() {
 
 // Change the global drink variable
 function changeFeaturedDrink() {
-    // This function needs to change featuredDrink.
-    // See the explanation below.
+    featuredDrink = "The JavaShake";
 }
